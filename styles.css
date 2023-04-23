@@ -161,8 +161,26 @@ h3 {
   max-width: 300px;
   max-height: 300px;
   text-align: center;
+  opacity: 1;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.footer__copyright {
+  margin: 0 0 20px 20px;
+}
+
 @media only screen and (min-width: 770px) and (max-width: 1024px) {
+
   .locations__downtown,
   .locations__bayside,
   .locations__oakdale {
